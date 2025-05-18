@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Exchange rate</string>
+    <string name="country">Country</string>
+    <string name="buy">Buy</string>
+    <string name="sell">Sell</string>
+
+    <string name="country_name">Nama Kota</string>
+    <string name="buy_total">0000</string>
+    <string name="sell_total">0000</string>
+
+    <string-array name="data_name">
+        <item>Vietnam</item>
+        <item>Nicaragua</item>
+        <item>Korea</item>
+        <item>Russia</item>
+        <item>China</item>
+        <item>Portuguese</item>
+        <item>Korea</item>
+        <item>French</item>
+        <item>Nicaragua</item>
+        <item>China</item>
+    </string-array>
+
+    <string-array name="data_buy">
+        <item>1.403</item>
+        <item>9.123</item>
+        <item>3.704</item>
+        <item>116.0</item>
+        <item>1.725</item>
+        <item>1.403</item>
+        <item>3.454</item>
+        <item>23.45</item>
+        <item>263.1</item>
+        <item>1.725</item>
+    </string-array>
+
+    <string-array name="data_sell">
+        <item>1.746</item>
+        <item>12.09</item>
+        <item>5.151</item>
+        <item>144.4</item>
+        <item>2.234</item>
+        <item>1.746</item>
+        <item>4.312</item>
+        <item>34.56</item>
+        <item>300.3</item>
+        <item>2.234</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/vietnam</item>
+        <item>@drawable/nicaragua</item>
+        <item>@drawable/korea</item>
+        <item>@drawable/russia</item>
+        <item>@drawable/china</item>
+        <item>@drawable/portuguese</item>
+        <item>@drawable/korea</item>
+        <item>@drawable/french</item>
+        <item>@drawable/nicaragua</item>
+        <item>@drawable/china</item>
+    </integer-array>
+
+</resources>

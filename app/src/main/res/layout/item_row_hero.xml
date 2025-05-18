@@ -1,0 +1,75 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginBottom="20dp"
+    app:cardElevation="0dp"
+    android:backgroundTint="@android:color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/vietnam" />
+
+        <TextView
+            android:id="@+id/txt_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/img_item_photo"
+            app:layout_constraintEnd_toStartOf="@+id/txt_item_buy"
+            app:layout_constraintHorizontal_bias="0.025"
+            app:layout_constraintStart_toEndOf="@+id/img_item_photo"
+            app:layout_constraintTop_toTopOf="@+id/img_item_photo"
+            tools:text="@string/country_name" />
+
+        <TextView
+            android:id="@+id/txt_item_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/buy_total"
+            app:layout_constraintBottom_toBottomOf="@+id/img_item_photo"
+            app:layout_constraintEnd_toStartOf="@+id/txt_item_sell"
+            app:layout_constraintTop_toTopOf="@+id/img_item_photo" />
+
+        <TextView
+            android:id="@+id/txt_item_sell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/sell_total"
+            app:layout_constraintBottom_toBottomOf="@+id/img_item_photo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/img_item_photo" />
+
+        <View
+            android:id="@+id/card_bottom_line"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:background="#ECECEC"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
